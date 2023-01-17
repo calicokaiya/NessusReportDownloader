@@ -1,0 +1,38 @@
+{
+  "format": "csv",
+  "template_id": "",
+  "filter.0.quality": "neq",
+  "filter.0.filter": "severity",
+  "filter.0.value": 0,
+  "filter.0.string": "severity does not equal 0",
+  "filter.search_type": "and",
+  "reportContents": {
+    "csvColumns": {
+      "id": true,
+      "cve": true,
+      "cvss": true,
+      "risk": true,
+      "hostname": true,
+      "protocol": false,
+      "port": false,
+      "plugin_name": true,
+      "synopsis": false,
+      "description": false,
+      "solution": false,
+      "see_also": false,
+      "plugin_output": false,
+      "stig_severity": false,
+      "cvss3_base_score": false,
+      "cvss_temporal_score": false,
+      "cvss3_temporal_score": false,
+      "risk_factor": false,
+      "references": false,
+      "plugin_information": false,
+      "exploitable_with": false
+    }
+  },
+  "extraFilters": {
+    "host_ids": [],
+    "plugin_ids": []
+  }
+}
